@@ -6,4 +6,4 @@ A collection of Dutch [inflection](http://en.wikipedia.org/wiki/Inflection) rule
 
 If you add the file to the `/system/expressionengine/config` directory, you can add this line to the config file:
 
-    $config['low_search_inflection_rules']['nl'] = include 'inflect.php';
+    $config['low_search_inflection_rules']['nl'] = include 'inflection_rules.php';
