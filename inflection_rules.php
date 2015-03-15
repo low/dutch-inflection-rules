@@ -11,8 +11,16 @@ return array(
 		'/(kunde)$/i' => '$1',
 
 		'/heid$/i' => 'heden',
+		
+		// Leenwoorden
 		'/(tr)ix$/i' => '$1ices',
 		'/([^u])um$/i' => '$1a',
+		'/(.+)(é)$/i' => '$1ees',
+		'/(lunch|brunch|inch|speech|coach|sandwich|ranch|brunch|batch|match|patch|watch|sketch|bitch)$/i' => '$1es',
+		'/(flash|whiplash|smash|crash|wash|rush)$/i' => '$1es',
+		'/(class|pass|dress|mess|hostess|cross|remix)$/i' => '$1es',
+		'/(amanuens|bas|clitor|cris|dos)(is)$/i' => '$1es',
+		'/(ind|cod|append|rad)(ex|ix)$/i' => '$1ices',
 
 		'/\b(ei)$/i' => '$1eren',
 		// Nou, maar een paar eieren noemen
