@@ -167,7 +167,8 @@ return array(
 	),
 
 	'irregular' => array(
-		'beleg'    => 'belegeringen',
+		'been'     => 'beenderen', // ook benen
+		'beleg'    => 'belegeringen', // ook beleggen
 		'gedrag'   => 'gedragingen',
 		'gelid'    => 'gelederen',
 		'genot'    => 'genietingen',
@@ -181,6 +182,7 @@ return array(
 		'smid'     => 'smeden',
 		'stad'     => 'steden',
 		'vlo'      => 'vlooien',
+		'volk'     => 'volkeren', // ook volken
 	),
 
 	'uncountable' => array(
