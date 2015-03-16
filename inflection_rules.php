@@ -11,9 +11,18 @@ return array(
 		'/(kunde)$/i' => '$1',
 
 		'/heid$/i' => 'heden',
+		
+		// Leenwoorden
 		'/(tr)ix$/i' => '$1ices',
 		'/([^u])um$/i' => '$1a',
-
+		'/(.+)(é)$/i' => '$1ees',
+		'/(lunch|brunch|inch|speech|coach|sandwich|ranch|brunch|batch|match|patch|watch|sketch|bitch)$/i' => '$1es',
+		'/(flash|whiplash|smash|crash|wash|rush)$/i' => '$1es',
+		'/(class|pass|dress|mess|hostess|cross|remix)$/i' => '$1es',
+		'/(amanuens|bas|clitor|cris|dos)(is)$/i' => '$1es',
+		'/(ind|cod|append|rad)(ex|ix)$/i' => '$1ices',
+                '/(excu)(us)$/i' => '$1ses',
+                
 		'/\b(ei)$/i' => '$1eren',
 		// Nou, maar een paar eieren noemen
 		'/(kippen|scharrel|kievie?ts|spiegel|kwartel)(ei)$/i' => '$1$2eren',
@@ -167,7 +176,8 @@ return array(
 	),
 
 	'irregular' => array(
-		'beleg'    => 'belegeringen',
+		'been'     => 'beenderen', // ook benen
+		'beleg'    => 'belegeringen', // ook beleggen
 		'gedrag'   => 'gedragingen',
 		'gelid'    => 'gelederen',
 		'genot'    => 'genietingen',
@@ -181,6 +191,7 @@ return array(
 		'smid'     => 'smeden',
 		'stad'     => 'steden',
 		'vlo'      => 'vlooien',
+		'volk'     => 'volkeren', // ook volken
 	),
 
 	'uncountable' => array(
