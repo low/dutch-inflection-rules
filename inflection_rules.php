@@ -21,7 +21,7 @@ return array(
 		'/(class|pass|dress|mess|hostess|cross|remix)$/i' => '$1es',
 		'/(amanuens|bas|clitor|cris|dos)(is)$/i' => '$1es',
 		'/(ind|cod|append|rad)(ex|ix)$/i' => '$1ices',
-                '/(excu)(us)$/i' => '$1es',
+                '/(excu)(us)$/i' => '$1ses',
                 
 		'/\b(ei)$/i' => '$1eren',
 		// Nou, maar een paar eieren noemen
